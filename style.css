@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+}
+
+.form_radio_btn {
+    /*display: inline-block;*/
+    margin: 10px;
+}
+.form_radio_btn input[type=radio] {
+    display: none;
+}
+.form_radio_btn label {
+    text-align: center;
+    min-width: 190px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 34px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    user-select: none;
+}
+
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+    background: #ffe0a6;
+}
+
+/* Hover */
+.form_radio_btn label:hover {
+    color: #666;
+}
+
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled + label {
+    background: #efefef;
+    color: #666;
+}
+.btn-panel{
+    float:left;
+    width: 30%;
+}
+
+.deals{
+    float:left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.deals-item{
+    border: 5px solid #fff;
+    border-top: 5px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-collapse: collapse;
+    outline: 3px solid #ffd300;
+
+}
+
+.deals-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.deals-item h2{
+    text-align: center;
+}
+.deals-item span{
+    float: right;
+    font-size: 1.5em;;
+}
+
+
+table {
+    width: 100%;
+    font-size: 15px;
+    background: #fff!important;
+}
+table th {
+    font-weight: bold;
+    padding: 7px;
+    background: #ffd300;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #ffd300;
+}
+table td {
+    padding: 7px;
+    border: none;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 15px;
+}
+table tbody tr:nth-child(even){
+    background: #f8f8f8!important;
+}
